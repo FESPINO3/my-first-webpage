@@ -1,0 +1,28 @@
+/* This is a comment */
+#intro {
+  color: red;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+.default {
+  color: blue;
+  border: 1px solid black;
+
+  height: 50px;
+}
+
+#special-one {
+  font-size: 22px;
+}
+
+.text-center {
+    text-align:center;
+}
+
+body {
+background-color: #dadada;
+background-image: url("https://pm1.narvii.com/6565/4534d5c50762ac6ea479ed37f42c92f65c1882eb_hq.jpg");
+
+}
