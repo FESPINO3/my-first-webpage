@@ -1,13 +1,24 @@
+html { height: 100%; }
+
+body {
+background-color: #dadada;
+background-image: url("https://i2.wp.com/ovicio.com.br/wp-content/uploads/goku-super.jpg?resize=820%2C461");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center top;
+background-size: 100% 100%;
+}
+
 /* This is a comment */
 #intro {
-  color: red;
+  color: BLACK ;
   border: 1px solid black;
   padding: 20px;
   margin: 20px;
 }
 
 .default {
-  color: blue;
+  color: green;
   border: 1px solid black;
 
   height: 50px;
@@ -19,10 +30,4 @@
 
 .text-center {
     text-align:center;
-}
-
-body {
-background-color: #dadada;
-background-image: url("https://pm1.narvii.com/6565/4534d5c50762ac6ea479ed37f42c92f65c1882eb_hq.jpg");
-
 }
