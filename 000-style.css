@@ -2,7 +2,7 @@ html { height: 100%; }
 
 body {
 background-color: #dadada;
-background-image: url("https://i2.wp.com/ovicio.com.br/wp-content/uploads/goku-super.jpg?resize=820%2C461");
+background-image: url("");
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: center top;
@@ -31,3 +31,68 @@ background-size: 100% 100%;
 .text-center {
     text-align:center;
 }
+
+.sticky-container{
+    padding:0px;
+    margin:0px;
+    position:fixed;
+    right:-130px;
+    top:230px;
+    width:210px;
+    z-index: 1100;
+}
+.sticky li{
+    list-style-type:none;
+    background-color:#;
+    color:#efefef;
+    height:43px;
+    padding:0px;
+    margin:0px 0px 1px 0px;
+    -webkit-transition:all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out;
+    -o-transition:all 0.25s ease-in-out;
+    transition:all 0.25s ease-in-out;
+    cursor:pointer;
+}
+.sticky li:hover{
+    margin-left:-115px;
+}
+.sticky li img{
+    float:left;
+    margin:5px 4px;
+    margin-right:5px;
+}
+.sticky li p{
+    padding-top:5px;
+    margin:0px;
+    line-height:16px;
+    font-size:11px;
+}
+.sticky li p a{
+    text-decoration:none;
+    color:#2C3539;
+}
+.sticky li p a:hover{
+    text-decoration:underline;
+}
+
+<?php
+$plugin = array(
+  'title' => t('960/16 4-8-4'),
+  'category' => t('960gs: 16'),
+  'icon' => 'icon.png',
+  'css' => '../../../../lib/grid.css',
+  'theme' => '960_16_484',
+  'regions' => array(
+    'top' => t('Top'),
+    'aboveLeft' => t('Above Left'),
+    'aboveCenter' => t('Above Center'),
+    'aboveRight' => t('Above Right'),
+    'middle' => t('Middle'),
+    'belowLeft' => t('Below Left'),
+    'belowCenter' => t('Below Center'),
+    'belowRight' => t('Below Right'),
+    'bottom' => t('Bottom')
+  ),
+);
+?>
