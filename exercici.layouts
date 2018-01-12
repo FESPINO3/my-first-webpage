@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>ESTE SITIO SERA LA OSTIA!</title>
+    <link rel="stylesheet" type="text/css" href="000-style.css" />
+	</head>
+
+	<body>
+		<h1> EXPERIMENTO </h1>
+<
+
+
+	<img src= "https://www.snailarts.com/wp-content/uploads/2016/09/musica-electronica-sin-copyright-1.jpg" >
+    <p id="intro">
+			BIENVENIDOS A TU ESPACIO MUSICAL
+    </p>
+
+    <p class="default text-center"> GAlERIA DE VIDEOS </p>
+
+    <p class="default text-center"> Bienvenidos a tu sitio web </p>
+    <p class="default text-center">  VIVE LA <span id="special-one"> VIDA </span> </p>
+    <p class="default text-center"> HAY TANTOS CON QUIEN ESTAR PERO NO CON QUIEN SER    </p>
+
+		<video src="" controls>
+		  Tu navegador no implementa el elemento <code>video</code>.
+		</video>
+
+	</body>
+
+
+    <p> NO VIVAS PARA QUE TU PRECENCIA SE NOTE, SI NO PARA QUE TU AUSENCIA SE SIENTE.</p>
+	</body>
+	<div class="sticky-container">
+	    <ul class="sticky">
+	        <li>
+	            <img src="images/facebook-circle.png" width="32" height="32">
+	            <p><a href="https://www.facebook.com/programacionnet" target="_blank">Like Us on<br>Facebook</a></p>
+	        </li>
+	        <li>
+	            <img src="images/twitter-circle.png" width="32" height="32">
+	            <p><a href="https://twitter.com/noprog" target="_blank">Follow Us on<br>Twitter</a></p>
+	        </li>
+	        <li>
+	            <img src="images/gplus-circle.png" width="32" height="32">
+	            <p><a href="https://plus.google.com/programacionnet" target="_blank">Follow Us on<br>Google+</a></p>
+	        </li>
+	        <li>
+	            <img src="images/linkedin-circle.png" width="32" height="32">
+	            <p><a href="https://www.linkedin.com/company/programacionnet" target="_blank">Follow Us on<br>LinkedIn</a></p>
+	        </li>
+	        <li>
+	            <img src="images/youtube-circle.png" width="32" height="32">
+	            <p><a href="http://www.youtube.com/programacionnet" target="_blank">Subscribe on<br>YouYube</a></p>
+	        </li>
+	        <li>
+	            <img src="images/pin-circle.png" width="32" height="32">
+	            <p><a href="https://www.pinterest.com/programacionnet" target="_blank">Follow Us on<br>Pinterest</a></p>
+	        </li>
+	    </ul>
+	</div>
